@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "start": "cd backend && node server.js",
-  "start-dev": "concurrently \"cd backend && nodemon server.js\" \"echo 'Frontend: Open frontend/public/index.html manually'\"",
-  "test": "echo \"Error: no tests yet\" && exit 0"
+    "start": "nodemon backend/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -20,15 +19,14 @@
   "homepage": "https://github.com/G4l1le30/circular-fashion-hub#readme",
   "description": "",
   "dependencies": {
-    "axios": "^1.9.0",
+    "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
-    "mongoose": "^8.14.3"
+    "jsonwebtoken": "^9.0.2",
+    "mysql": "^2.18.1"
   },
   "devDependencies": {
-    "concurrently": "^9.1.2",
     "nodemon": "^3.1.10"
   }
-  
 }

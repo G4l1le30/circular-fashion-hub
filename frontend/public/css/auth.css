@@ -1,0 +1,32 @@
+/* Auth Pages Styling */
+body {
+  background-color: #f8f9fa;
+}
+
+.card {
+  border-radius: 10px;
+  border: none;
+}
+
+.card.shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-primary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+a {
+  color: #6c757d;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
